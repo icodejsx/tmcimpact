@@ -17,7 +17,7 @@ const Navbar = () => {
             <div className='flex items-center justify-between w-full p-5 bg-[#FAF9F9] md:rounded-3xl md:shadow-xl'>
                 <Image src={"/logo.png"} width={100} height={100} alt='logo' />
                 <div className='hidden md:flex gap-8 items-center font-medium text-gray-700'>
-                    <Link className='border-b-2 border-[#670000]' href={"/"}>Home</Link>
+                    <Link className='md:border-b-2 border-[#670000]' href={"/"}>Home</Link>
                     <Link href={"/research"}>Research</Link>
                     <Link href={"/media"}>Media</Link>
                     <Link href={"/social-impact"}>Social Impact</Link>
